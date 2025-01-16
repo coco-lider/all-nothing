@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .container{
+        @apply mx-auto px-[20px];
+    }
+}
+
+@layer base{
+    .dot{
+        @apply rounded-full w-2 h-2 bg-red-600 mt-1;
+    }
+}
+
+@layer base{
+    .line{
+        @apply border-l-2 pl-6;
+    }
+}
+
+@layer base{
+    .dropdown{
+        @apply absolute transition duration-[0.3s] opacity-0 group-hover:opacity-[1] bg-[#CCCCCC];
+    }
+}
+
+@layer base{
+    .dorpdown{
+        @apply hover:bg-slate-200 px-10 py-2;
+    }
+}
