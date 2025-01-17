@@ -981,9 +981,9 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-b-\[30px\] {
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
+.rounded-t-\[20px\] {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .rounded-br-\[30px\] {
